@@ -24,7 +24,7 @@ const ResetPassword = () => {
     e.preventDefault();
 
     try {
-      const {data} = await axios.post('https://postback-mf0d394n.b4a.run/reset-password', {
+      const {data} = await axios.post('https://postback-qgzq62i8.b4a.run/reset-password', {
         email,
         newPassword: newpassword
       });

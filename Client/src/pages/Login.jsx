@@ -25,7 +25,7 @@ const Login = () => {
 
       if (state === 'Sign up') {
 
-        const {data} = await axios.post('https://postback-mf0d394n.b4a.run/register', {
+        const {data} = await axios.post('https://postback-qgzq62i8.b4a.run/register', {
           name,
           email,
           password
@@ -40,7 +40,7 @@ const Login = () => {
      
       } else {
 
-            const {data} = await axios.post('https://postback-mf0d394n.b4a.run/login', {
+            const {data} = await axios.post('https://postback-qgzq62i8.b4a.run/login', {
           email,
           password
         });
