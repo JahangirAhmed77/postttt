@@ -17,7 +17,7 @@ connectDB();
 
 // midleware
 const corsOptions = {
-    origin: 'http://localhost:5173', // frontend url
+    origin: 'https://postttt.vercel.app', // frontend url
     optionsSuccessStatus: 200,
     credentials: true,
 };
